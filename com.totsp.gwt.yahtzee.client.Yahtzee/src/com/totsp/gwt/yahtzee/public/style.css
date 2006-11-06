@@ -1,0 +1,136 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 75%;
+  font-weight: normal;
+  font-family: Arial, sans-serif;	
+  margin: 10px;
+}
+
+.yahtzee-Widget {
+	width: 360px;
+	border: 1px solid #000000;	
+	background-color: #ffffff;
+	color: #000000;	
+	min-width: 360px;
+	padding: 3px;
+}
+
+.roll-Button {
+	width: 350px;
+	height: 20px;
+	border: 1px outset #cccccc;
+	background-color: #cccccc;
+	color: #000000;	
+	margin-bottom: 2px;
+}
+.roll-Button-Disabled {
+	color: #999999;	
+}
+
+.reset-Button {
+	width: 350px;
+	height: 20px;
+	border: 1px outset #cccccc;
+	background-color: #cccccc;
+	color: #000000;	
+	margin-top: 3px;		
+}
+
+.die-Button {
+	height: 65px;
+	width: 65px;
+	margin: 3px;
+	padding: 0px;
+	background-color: #cccccc;
+	color: #000000;	
+	min-width: 65px;
+	min-height: 65px;
+}
+.die-Button-Clicked {	
+	border-color: #cc0000;
+}
+.die-Button-1 {
+	background-image: url('1.png')	
+}
+.die-Button-2 {
+	background-image: url('2.png')	
+}
+.die-Button-3 {
+	background-image: url('3.png')	
+}
+.die-Button-4 {
+	background-image: url('4.png')	
+}
+.die-Button-5 {
+	background-image: url('5.png')	
+}
+.die-Button-6 {
+	background-image: url('6.png')	
+}
+
+.scoreGrid {	
+	width: 330px;
+	background-color: #ffffff;
+}
+.scoreLabel {	
+	width: 120px;
+	height: 20px;
+	background-color: #cccccc;
+	border: 3px double #999999;
+	font-weight: normal;
+	font-size: 75%;
+}
+.scoreValue {	
+	width: 25px;
+	height: 20px;
+	background-color: #cccccc;
+	border: 3px double #999999;
+}
+.scoreValue-Chosen {		
+	font-weight: bold;
+}
+
+.bonus-Label {
+	width: 120px;
+	height: 20px;
+	background-color: #cccccc;
+	border: 3px double #999999;
+	font-weight: normal;
+	font-size: 75%;
+}
+.bonus-Value {
+	width: 25px;
+	height: 20px;
+	background-color: #cccccc;
+	border: 3px double #999999;
+}
+.bonus-Value-On {
+	color: #000000;
+	font-weight: bold;
+}
+
+.totalScore-Panel {
+	width: 350px;
+	height: 20px;
+	border: 2px solid #999999;	
+	padding: 0px;
+	background-color: #cccccc;	
+	font-size: 75%;
+	font-weight: bold;
+}
+.totalScore-Label {
+	width: 250px;
+	height: 20px;
+	color: #000000;	
+	font-weight: bold;
+	margin-left: 5px;
+}
+.totalScore-Value {
+	width: 50px;
+	height: 20px;
+	color: #cc0000;	
+	font-weight: bold;
+}
+
+

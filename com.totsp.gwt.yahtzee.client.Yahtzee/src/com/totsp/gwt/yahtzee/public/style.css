@@ -41,14 +41,15 @@ body {
 	height: 65px;
 	width: 65px;
 	margin: 3px;
-	padding: 0px;
+	padding: 1px;
+	border: 2px double #ffffff;
 	background-color: #cccccc;
 	color: #000000;	
 	min-width: 65px;
 	min-height: 65px;
 }
 .die-Button-Clicked {	
-	border-color: #cc0000;
+	border: 2px double #cc0000;
 }
 .die-Button-1 {
 	background-image: url('1.png')	

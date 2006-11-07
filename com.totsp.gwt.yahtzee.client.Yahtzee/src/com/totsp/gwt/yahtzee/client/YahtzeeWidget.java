@@ -116,7 +116,7 @@ public class YahtzeeWidget extends VerticalPanel {
                 // bonus
                 if (data.upperBonus == 35)
                 {
-                    upperBonusValue.setStyleName("bonus-Value-On");
+                    upperBonusValue.setStyleName("bonus-Value bonus-Value-On");
                     upperBonusValue.setText(String.valueOf(data.upperBonus));                    
                 }
                 else

@@ -13,6 +13,6 @@ public class Yahtzee implements EntryPoint {
    */
   public void onModuleLoad() {
   YahtzeeWidget yWidget = new YahtzeeWidget();
-  RootPanel.get().add(yWidget);
+  RootPanel.get("yahtzeeWidget").add(yWidget);
   }
 }

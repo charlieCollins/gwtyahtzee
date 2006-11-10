@@ -134,7 +134,7 @@ public class YahtzeeWidget extends VerticalPanel {
         });         
         
         // add components to self
-        this.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
+        this.setHorizontalAlignment(VerticalPanel.ALIGN_CENTER);
         this.setStyleName("yahtzee-Widget");
         this.add(diePanel);
         this.add(roll); 

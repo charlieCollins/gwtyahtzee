@@ -246,12 +246,10 @@ public class YahtzeeController
 
     public int roll()
     {
-        double i = 0;
-        while (i < 1 || i > 6)
-        {
-            i = Math.random() * 10;
-        }
-        return (int) Math.round(i);
+        int i = 0;
+        // return 1-6
+        i = (int) ((Math.random() * 6) + 1);               
+        return i;
     }
 
     // utils to determine scores

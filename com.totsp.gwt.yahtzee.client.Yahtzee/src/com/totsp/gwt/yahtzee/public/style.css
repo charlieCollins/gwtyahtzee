@@ -7,34 +7,46 @@ body {
   margin: 10px;
 }
 
+/*
+#0066B3
+#00487D
+#BFE4FF
+#80C9FF
+*/
+
+
 .yahtzee-Widget {
 	width: 360px;
 	border: 1px solid #000000;	
-	background-color: #ffffff;
-	color: #000000;	
+	background-color: #809FFF;
+	color: #BFE4FF;	
 	min-width: 360px;
 	padding: 3px;
 }
 
 .roll-Button {
-	width: 350px;
-	height: 20px;
-	border: 1px outset #cccccc;
-	background-color: #cccccc;
+	width: 220px;
+	height: 25px;
+	border: 2px outset #ffffff;
+	background-color: #ffffff;
 	color: #000000;	
-	margin-bottom: 2px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: normal;	
 }
 .roll-Button-Disabled {
 	color: #999999;	
 }
 
 .reset-Button {
-	width: 350px;
-	height: 20px;
-	border: 1px outset #cccccc;
-	background-color: #cccccc;
+	width: 220px;
+	height: 25px;
+	border: 2px outset #ffffff;
+	background-color: #ffffff;
 	color: #000000;	
-	margin-top: 3px;		
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: normal;		
 }
 
 .die-Button {
@@ -42,51 +54,55 @@ body {
 	width: 65px;
 	margin: 3px;
 	padding: 1px;
-	border: 2px double #ffffff;
+	border: 3px outset #ffffff;
 	background-color: #cccccc;
 	color: #000000;	
 	min-width: 65px;
 	min-height: 65px;
 }
 .die-Button-Clicked {	
-	border: 2px double #cc0000;
+	border: 3px solid #cc0000;
 }
 .die-Button-1 {
-	background-image: url('1.png')	
+	background-image: url('1.png');	
 }
 .die-Button-2 {
-	background-image: url('2.png')	
+	background-image: url('2.png');
 }
 .die-Button-3 {
-	background-image: url('3.png')	
+	background-image: url('3.png');
 }
 .die-Button-4 {
-	background-image: url('4.png')	
+	background-image: url('4.png');
 }
 .die-Button-5 {
-	background-image: url('5.png')	
+	background-image: url('5.png');
 }
 .die-Button-6 {
-	background-image: url('6.png')	
+	background-image: url('6.png');
 }
 
 .scoreGrid {	
 	width: 330px;
-	background-color: #ffffff;
+	background-color: #809FFF;
+	align: left;	
 }
 .scoreLabel {	
 	width: 120px;
 	height: 20px;
-	background-color: #cccccc;
-	border: 3px double #999999;
+	background-color: #ffffff;
+	border: 2px solid #999999;
 	font-weight: normal;
 	font-size: 75%;
 }
 .scoreValue {	
 	width: 25px;
 	height: 20px;
-	background-color: #cccccc;
+	background-color: #ffffff;
 	border: 3px double #999999;
+	font-weight: normal;
+	font-size: 75%;
+	text-align: center;
 }
 .scoreValue-Chosen {		
 	font-weight: bold;
@@ -95,16 +111,18 @@ body {
 .bonus-Label {
 	width: 120px;
 	height: 20px;
-	background-color: #cccccc;
-	border: 3px double #999999;
+	background-color: #ffffff;
+	border: 2px solid #999999;
 	font-weight: normal;
 	font-size: 75%;
 }
 .bonus-Value {
 	width: 25px;
 	height: 20px;
-	background-color: #cccccc;
+	background-color: #ffffff;
 	border: 3px double #999999;
+	font-size: 75%;
+	text-align: center;
 }
 .bonus-Value-On {
 	color: #000000;
@@ -114,7 +132,7 @@ body {
 .totalScore-Panel {
 	width: 350px;
 	height: 20px;
-	border: 2px solid #999999;	
+	border: 2px solid #999999;
 	padding: 0px;
 	background-color: #cccccc;	
 	font-size: 75%;

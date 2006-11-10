@@ -9,7 +9,7 @@ public class ButtonDie extends Button
 
     public boolean clicked;
 
-    public ButtonDie(final int die, YahtzeeController controller)
+    public ButtonDie(final int die, final YahtzeeController controller)
     {
         super();
         setStyleName("die-Button");
@@ -24,10 +24,14 @@ public class ButtonDie extends Button
                     String styleName = getStyleName();
                     setStyleName(styleName.substring(0, styleName.lastIndexOf(" ")));
                 }
-                else
+                else if (controller.data.currentRoll >= 1)
                 {
                     clicked = true;
                     setStyleName(getStyleName() + " die-Button-Clicked");
+                }
+                else
+                {
+                    clicked = false;
                 }
             }
         });
